@@ -13,7 +13,6 @@
 </template>
 
 <script>
-
 export default {
   name: "AddTodo",
   data() {
@@ -38,11 +37,11 @@ export default {
 </script>
 
 <style scoped>
-* {
+  * {
     margin: 10px;
     padding: 10px;
     justify-content: center;
-    }
+  }
   form {
     display: flex;
     margin: 2px;

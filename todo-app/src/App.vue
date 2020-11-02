@@ -2,18 +2,16 @@
   <div id="app">
     <Header />
     <router-view />
-    <!-- <Home /> -->
   </div>
 </template>
 
 <script>
 import Header from "./components/layout/Header";
-// import Home from "./views/Home";
+
 export default {
   name: "App",
   components: {
     Header,
-    // Home,
   },
 };
 </script>
